@@ -1,0 +1,26 @@
+/* Cambiar el color de fondo de toda la página */
+body {
+    background-color: #f0f0f0; /* Color gris claro */
+    font-family: Arial, sans-serif; /* Establecer una fuente más moderna */
+}
+
+/* Cambiar el color y estilo del encabezado */
+h1 {
+    color: #4CAF50; /* Un verde bonito */
+}
+
+/* Estilo de los botones */
+button {
+    background-color: #4CAF50; /* Un verde para los botones */
+    color: white; /* El texto en blanco */
+    padding: 10px 20px; /* Un poco de espacio dentro del botón */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambiar el puntero a mano */
+    font-size: 16px; /* Aumentar el tamaño de la letra */
+}
+
+button:hover {
+    background-color: #45a049; /* Color verde más oscuro cuando se pasa el ratón */
+}
+

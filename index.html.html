@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Interactiva</title>
+    <link rel="stylesheet" href="style.css"> <!-- Vinculamos el archivo CSS aquí -->
+</head>
+<body>
+    <h1>¡Bienvenido a mi página web!</h1>
+    <p>Haz clic en el botón para ver un mensaje.</p>
+    <button onclick="mostrarMensaje()">Haz clic aquí</button>
+    <button onclick="mostrarMensajeOtro()">Otro Mensaje</button> <!-- Nuevo botón -->
+    <div id="mensaje"></div>
+
+    <script>
+        function mostrarMensaje() {
+            document.getElementById('mensaje').innerHTML = '¡Gracias por hacer clic!';
+        }
+
+        function mostrarMensajeOtro() {
+            document.getElementById('mensaje').innerHTML = '¡Este es otro mensaje!';
+        }
+    </script>
+</body>
+</html>
